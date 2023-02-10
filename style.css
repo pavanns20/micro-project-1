@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:  'Fredoka One', cursive;
+}
+.container{
+    height: 200vh;
+    position: relative;
+}
+
+.nav-bar{
+    background-color: rgb(108, 82, 224);
+    border: 2pt solid black;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    top: 0;
+   
+}
+ ul{
+    display: flex;
+    justify-content: space-between;
+    width: 42%; 
+    margin: 3px;
+    padding: 3px;
+    
+    
+    
+}
+li{
+    margin: 13px;
+    padding: 13px;
+    color: white;
+    font-size: 20px;
+    
+
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 13px;
+    margin: 8px;
+    color: white; 
+}
+
+
+.text{
+    width: 65%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1pt solid rgb(68, 6, 225);
+   
+
+}
+.main-menu{
+    height: 65px;
+    width: 60px;
+    margin: 12px;
+    padding: 15px;
+}
+.search-bar{
+    margin: 5px;
+    padding: 10px;
+    width: 28%; 
+    justify-content: left;
+    text-align: center;
+    align-content: center;
+    position: relative;
+     
+}
+.search-icon{
+line-height: normal;
+position: absolute;
+left: 70%;
+top: 33%;
+
+}
+a{
+    color: white;
+}
+select{
+    background: none;
+     border: none;
+     color: white;
+     font-size: 20px;
+}
+section{
+  
+    display: flex; 
+    position: relative;
+    top: 5%;
+}
+.image{
+    height: 350px;
+    width: 350px;
+    margin: 35px; 
+    position: absolute; 
+    left: 5%;
+
+}
+.content{
+    height: 350px;
+    width: 780px;
+    border: 2pt solid rgb(241, 241, 241);
+    background-color: rgb(217, 190, 213);
+    border-radius: 15px;
+    position: absolute; 
+    right: 12%;
+    margin: 35px;
+   text-align: left;
+   padding: 25px;
+   font-size: 20px;
+   word-spacing: 3px; 
+    
+}
+.social-media-icons{
+    float: inline-end;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top:0;
+    
+    margin-top: 15%;
+   
+    left: 91%;
+    justify-content: center;
+    
+}
+.whatsapp,.twitter,.facebook{
+    border: 2pt solid black;
+    padding-right: 3px;
+    margin: 3px;
+}
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left:2%;
+}
+.box-1,.box-2,.box-3,.box-4{
+    border: 1pt solid white;
+    border-radius: 15px; 
+    text-align: center;
+    width: 15%;
+    height: 10%;
+    margin: 15px;
+    padding: 15px;
+}
+p{
+    padding: 3px;
+    justify-content: left;
+}
+
+.box-1{
+    background-color: darkorchid;
+    position: relative;
+    left: 5%;
+}
+    
+.box-2{
+    background-color: orchid;
+    position: relative;
+    left: -3%;
+}
+
+.box-3{
+    background-color: dodgerblue;
+    position: relative;
+    left: -11%;
+}
+.box-4{
+    background-color: rgb(6, 5, 16);
+    position:relative;
+    left: -19%;
+}
+.face{
+    width: 55px; 
+    background-color: rgb(239, 235, 235);
+    border: 1pt white;
+    border-radius: 25px;
+    padding: 10px;
+   
+    
+}
+.face-icon{
+    position: fixed;
+    top: 90%;
+    left: 79%;  
+}
+
+ .section-3{
+   background-color: blue;
+   display: flex;
+   justify-content: space-between;
+   color: white;
+  position:absolute;
+  width: 80%;
+  left:7%;
+  border: 1pt solid blue;
+  border-radius: 5px;
+  
+  
+  top: 110%;
+  height: 70%;
+   
+ }
+ .layer-1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    color: white;
+
+ }
+ .b2,.b3{
+    height: 60px;
+    width: 150px;
+    border: 2pt solid white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+   
+ }
+ .b1{
+    background-color: rgb(76, 166, 230);
+    height: 60px;
+    width: 150px;
+    border: 1pt solid white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+ }
+ .layer-2{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    justify-content: space-between;
+    position: relative;
+    border: 1pt solid white;
+    border-radius: 5px;
+    top: 0;
+  
+  right: 0%;
+  background-color: aliceblue;
+  color: black;
+ }
+ .return{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+    left: 80%;
+    width: 100px;
+ }
+ .form-title{
+    margin: 15px;
+    padding: 15px;
+    font-weight: bolder;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+
+ }
+ .name, .email,.marks,.phone{
+    margin: 3px;
+    padding: 3px;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    font-weight: 500;
+
+ }
+ 
